@@ -1,0 +1,179 @@
+/*CSS RESET Code*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body{
+	background: skyblue;
+}
+
+
+.main_wrapper_style{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	background: pink;
+}
+
+.header_wrapper_style{
+	width: 1000px;
+	height: 150px;
+	margin: auto;
+}
+
+#logo{
+	float: left;
+}
+#banner{
+	float: right;
+}
+
+.menu_style{
+	width: 1000px;
+	height: 50px;
+	background: gray;
+	color: white;
+}
+#menu{
+	padding: 0;
+	margin: 0;
+	line-height: 45px;
+	float: left;
+}
+#menu li{
+	list-style: none;
+	display: inline;
+}
+#menu a{
+	text-decoration: none;
+	color: white;
+	padding: 4px;
+	margin: 2px;
+	font-size: 18px;
+	font-family: COMIC SANS MS;
+}
+#menu a:hover{
+	color: cyan;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+#form{
+	float: right;
+	line-height: 50px;
+	padding-right: 10px;
+}
+
+.content_wrapper_style{
+	width: 1000px;
+	/*height: 800px;*/
+	margin: auto;
+	background: pink;
+}
+#content_area{
+	width: 800px;
+	/*height: 800px;*/
+	float: right;
+	background: pink;
+}
+#content_area_customer{
+	width: 800px;
+	/*height: 800px;*/
+	float: left;
+	background: pink;
+}
+
+#sidebar{
+	width: 200px;
+	/*height: 800px;*/
+	float: left;
+	background: black;
+}
+#sidebar_title{
+	background: white;
+	color: black;
+	font-size: 22px;
+	font-family: arial;
+	padding: 8px;
+	text-align: center;
+}
+#sidebar_customer{
+	width: 200px;
+	/*height: 800px;*/
+	float: right;
+	background: black;
+}
+#categories{
+	text-align: center;
+}
+#categories li{
+	list-style: none;
+	display: block;
+	padding: 5px;
+}
+#categories a{
+	color: white;
+	/*padding: 8px;*/
+	/*margin: 5px;*/
+	font-size: 18px;
+	font-family: COMIC SANS MS;
+	text-align: center;
+	text-decoration: none;
+}
+#categories a:hover{
+	color: cyan;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
+#products_box{
+	width: 750px;
+	text-align: center;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+#single_product{
+	float: left;
+	margin-left: 30px;
+	padding: 10px;
+}
+#single_product img{
+	border: 2px solid black;
+}
+#shopping_cart{
+	width: 800px;
+	height: 50px;
+	background: black;
+	color: white;
+	float: right;
+	text-decoration: none;
+}
+
+#footer{
+	width: 1000px;
+	height: 100px;
+	background: gray;
+	clear: both;
+}
