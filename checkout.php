@@ -18,12 +18,12 @@
 		</div>
 		<div class="menu_style">
 				<ul id="menu">
-					<li><a href="index.php">Home</li>
-					<li><a href="all_products.php">All Products</li>
-					<li><a href="customer/my_account.php">My Account</li>
-					<li><a href="customer_register.php">Sign Up</li>
-					<li><a href="cart.php">My Cart</li>
-					<li><a href="contact.php">Contact Us</li>
+					<a href="index.php"><li>Home</li></a>
+					<a href="all_products.php"><li>All Products</li></a>
+					<a href="customer/my_account.php"><li>My Account</li></a>
+					<a href="customer_register.php"><li>Sign Up</li></a>
+					<a href="cart.php"><li>My Cart</li></a>
+					<a href="contact.php"><li>Contact Us</li></a>
 				</ul>
 				<div id="form">
 					<form method="get" action="search_results.php" enctype="multipart/form-data">

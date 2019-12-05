@@ -13,7 +13,8 @@
 			// echo 'Category';
 			$catId = $rowCats['categories_id'];			
 			$catName = $rowCats['categories_name'];	
-			echo "<li><a href='index.php?cat=$catId'>$catName</li>";		
+			// echo "<li><a href='index.php?cat=$catId'>$catName</li>";		
+			echo "<a href='index.php?cat=$catId'><li>$catName</li></a>";		
 		}
 	}
 
@@ -24,7 +25,7 @@
 		while ($rowCats = mysqli_fetch_array($runBrands)) {
 			$brandId = $rowCats['brand_id'];			
 			$brandName = $rowCats['brand_name'];	
-			echo "<li><a href='index.php?brand=$brandId'>$brandName</li>";		
+			echo "<a href='index.php?brand=$brandId'><li>$brandName</li></a>";		
 		}
 	}
 
